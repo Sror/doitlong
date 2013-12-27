@@ -1,0 +1,80 @@
+
+@charset "UTF-8";
+
+
+@-webkit-keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /* première image et dernière*/
+	}
+	35%, 50% {
+		left: -100%; /*2ème image*/
+	}
+	70%, 85% {
+		left: -200%; /*3ème image*/
+	}
+}
+@-moz-keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /* première image et dernière*/
+	}
+	35%, 50% {
+		left: -100%; /*2ème image*/
+	}
+	70%, 85% {
+		left: -200%; /*3ème image*/
+	}
+}
+@keyframes AutoSlide {
+	0%, 15%, 100% {
+		left: 0px; /* première image et dernière*/
+	}
+	35%, 50% {
+		left: -100%; /*2ème image*/
+	}
+	70%, 85% {
+		left: -200%; /*3ème image*/
+	}
+}
+
+#slideshow {
+	position: relative;    /*le parent positionné*/
+	width: 100%;          /*limite en largeur (1 élément du slideshow)*/
+	height: auto;         /*limite en hauteur*/
+	margin:  20px auto;
+	overflow: hidden; 
+    /*on cache ce qui déborde*/
+}
+#sContent li {
+	display: inline;      /*on aligne les éléments du slideshow*/
+}
+#sContent {
+	position: absolute;   /*on sort l'élément du flux*/
+	top: 0;               /*on le positionne précisément dans ...*/
+	left: 0;              /*l'angle haut gauche de son parent positionné*/
+	width: 2690px;
+	margin: 0;            
+	padding: 0;
+	
+	
+	/*CSS3 webkit keyframes animation*/
+	-webkit-animation-name: AutoSlide;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	
+	/*CSS3 moz keyframes animation*/
+	-moz-animation-name: AutoSlide;
+	-moz-animation-duration: 15s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
+	
+	/*CSS3 W3C keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#slideshow-margin{
+margin-top:730px; /*compenser la position absolute avec une div vide. (l) bricolage*/
+}

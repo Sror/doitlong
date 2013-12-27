@@ -1,0 +1,460 @@
+/*
+#####################################################################
+LAKER Version 1.1 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This file contains a modified version of the LESS CSS Framework
+(http://www.lessframework.com). 
+
+See www.lakercompendium.com for more details.
+#####################################################################
+#####################################################################
+#####################################################################
+*/
+@charset "UTF-8";
+
+/*	   NOUVEAU STYLE
+	------------------	*/
+
+/*
+#####################################################################
+LAKER Version 1.1 – http://www.lakercompendium.com
+#####################################################################
+#####################################################################
+This file contains a modified version of the LESS CSS Framework
+(http://www.lessframework.com). 
+
+See www.lakercompendium.com for more details.
+#####################################################################
+#####################################################################
+#####################################################################
+*/
+@charset "UTF-8";
+
+
+/*
+##########################################################################
+##########################################################################
+		Default Layout: 952px.
+		Content-Element width: 952px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Leftover space for scrollbars @1024px: 32px.
+##########################################################################
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    
+##########################################################################
+##########################################################################
+*/
+
+
+h1
+h2,
+h3,
+h4,
+p,
+body {
+    margin: 0px; padding: 0px;
+    font-weight: normal;
+    font-family: 'PTSansSerif';
+}
+
+
+#main-title{
+	margin-left:20%;
+	margin-right:10%;
+}
+
+#main-title h1{
+font-family: 'Lobster';
+font-size:8em;
+color:white;}
+
+.content-element h1 {
+    margin-bottom: 20px;
+	margin-top:20px;
+    color: #000000;
+    font-size: 75px;
+    font-family: 'league gothic';
+	font-weight:regular;
+	 line-height: 1.2em;
+	clear:both;
+}
+
+.content-element h2 {
+    margin-bottom: 10px;
+	margin-top:20px;
+    color: #e6334c;
+    font-size: 30px;
+    font-family: 'league gothic';
+    line-height: 1.2em;
+	}
+
+.content-element h3{
+ margin-bottom: 10px;
+	margin-top:20px;
+    color: #e6334c;
+    font-size:30px;
+    font-family: 'league gothic';
+    line-height: 1.2em;
+	}
+
+.chapo p{
+	color:#333333;
+	font-family:'Oswald';
+}
+
+p {
+    display: block;
+    margin-bottom: 13px;
+    color: #333333;
+    font-size: 1.188em;
+    line-height: 1.50em;
+}
+
+li {
+    color: #555555;
+    font-size: 1.188em;
+    line-height: 1.50em !important
+}
+
+a:link, a:visited, a:hover {
+	color:#e6334c;
+	}
+	
+.content-element a {
+	color:#e6334c;
+	text-decoration:none;
+	border-bottom:1px solid #e6334c;
+	}
+
+
+.encadre {
+width:auto;
+height:auto;
+margin-left:0%;
+margin-right:0%;
+background-color: rgba(255,255,255,0.97);
+padding:10px;
+margin-bottom:20px;
+text-align:center;
+border:solid 1px rgb(237,237,237);
+}
+
+.encadre map{
+width:auto;
+height:auto;}
+
+.encadre p{
+font-size:16px;
+color:black;
+text-align:left;
+}
+
+.encadre h2{
+color:#e6334c;
+text-align:center;
+margin-bottom: 5px;
+margin-top:5px;
+font-size: 30px;
+font-family: 'league gothic';
+line-height: 1.2em;
+}
+
+.encadre .span3{
+margin-top:0;
+margin-bottom:0;}
+
+.encadre iframe{
+width:100%;
+height:450px;}
+
+.encadre img{
+width:100%;
+height:450px;}
+
+.encadre object{
+widht:100%;
+height:450px;}
+
+[type=checkbox] {
+    display: none;
+}
+:checked + div {
+    display: block !important;
+}
+.right{
+position:relative;
+left:-82%;
+width:99%;
+margin:0;
+}
+.left{}
+
+
+
+.blockquote {
+font-style:italic;
+padding-top:10px;
+padding-bottom:2px;
+margin-top:21px;
+margin-bottom:15px;
+border-top:solid 1px rgb(237,237,237);
+border-bottom:solid 1px rgb(255,237,237);
+}
+
+.blockquote p{
+color: #e6334c;
+font-size:1.160em;
+text-align:center;}
+
+.logo img{
+width:auto;
+text-align:center;
+margin-left:20%;
+margin-right:20%;}
+
+.entry{
+text-align:center;}
+
+.entry p {
+display: block;
+    margin-bottom: 13px;
+    color: #333333;
+    font-size: 1.188em;
+    line-height: 1.50em;
+}
+
+.entry h3 {
+margin-bottom: 10px;
+	margin-top:20px;
+    color: #12c086;
+    font-size: 25px;
+    font-family: 'league gothic';
+    line-height: 1.2em;
+	letter-spacing:1px;
+}
+
+.entry img{
+width:auto;
+text-align:center;
+margin-left:30%;
+margin-right:30%;
+}
+
+.signature {
+border-top:solid 1px rgb(237,237,237);
+border-bottom:solid 1px rgb(237,237,237);
+margin-left:20px;
+margin-top:20px;
+margin-bottom:28px;
+}
+
+.signature .category p{
+margin:5px 2px 2px 2px;
+padding:0;
+font-size:14px;
+font-family:'Helvetica';
+font-size:11px;
+color:#aaaaaa;
+margin:3px;
+}
+
+.signature .name p{
+font-family:'PTSansSerif';
+font-size: 1.180em;;
+margin:0px 2px 7px 2px;
+padding:0;
+color:#333333;
+}
+
+.entry-right{
+border-left:solid 1px rgb(237,237,237);
+border-bottom:solid 1px rgb(237,237,237);
+padding:17px;
+text-align:right;
+}
+
+.entry-right img{
+width:auto;
+text-align:center;
+}
+
+.entry-right p{
+color:#333333;
+font-size:1.1em;}
+
+.entry-right h3{
+color:#12c086;
+text-align:center;}
+
+.full-image img{
+width:100%;
+height:100%;
+}
+
+.full-image{
+position:relative;}
+
+.caption{
+position:absolute;
+background-color:rgba(0,0,0,0.5);
+width:100%;
+left:0;
+bottom:3px;
+padding:0 20px;
+}
+
+.caption p {
+color:white;
+font-size:1em;
+line-height: 1.50em;}
+
+
+/*
+##########################################################################
+##########################################################################
+		Tablet Layout: 768px.
+		Content-Element width: 712px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712    
+##########################################################################
+##########################################################################
+*/
+
+
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+
+}
+
+
+/*
+##########################################################################
+##########################################################################
+		iPad Layout Portrait: 768px.
+		Content-Element width: 712px.
+		Gutters: 24px.
+		Outer content margins: 28px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8
+px      68    160    252    344    436    528    620    712   
+##########################################################################
+##########################################################################
+ */
+ 
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) { 
+	
+}
+
+
+/*
+##########################################################################
+##########################################################################
+		iPad Layout Landscape: 1024px.
+		Content-Element width: 896px.
+		Gutters: 24px.
+		Outer content margins: 64px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3      4      5      6      7      8      9      10
+px      68    160    252    344    436    528    620    712    804    896    
+##########################################################################
+##########################################################################
+*/
+
+
+@media only screen and (max-device-width: 1024px) and (orientation:landscape) { 
+	
+}
+
+
+/*
+##########################################################################
+##########################################################################
+		Mobile Layout: 320px.
+		Content-Element width: 292px.
+		Gutters: 24px.
+		Outer content margins: 14px.
+		Inherits styles from: Default Layout.
+##########################################################################
+cols    1     2      3
+px      68    160    252    
+##########################################################################
+##########################################################################
+*/
+
+
+@media only screen and (max-width: 767px) { 
+	.content-element h1 {
+	    margin-bottom: 20px;
+	    font-size: 2.2em
+	}
+	#main-title h1{
+	    margin-bottom: 20px;
+	    font-size: 4em;
+		margin-left:
+		margin-right:
+	}
+	p { line-height: 1.40em }
+		.signature {
+	margin-left:0;}
+	.logo img{
+	width:auto;
+	margin:5% 45%;}
+	.entry-right{
+	border:none;
+	text-align:center;
+	}
+}
+
+
+/*		
+##########################################################################
+##########################################################################
+		Wide Mobile Layout: 480px.
+		Content-Element width: 436px.
+		Gutters: 24px.
+		Outer content margins: 22px.
+		Inherits styles from: Default Layout, Mobile Layout.
+#########################################################################
+cols    1     2      3      4      5
+px      68    160    252    344    436    
+##########################################################################
+##########################################################################
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+	#main-title h1{
+	    margin-bottom: 20px;
+	    font-size: 4em;
+		margin-left:2%;
+		margin-right:10%;
+	}
+		.logo img{
+	width:auto;
+	margin:5% 45%;}
+	}
+
+
+
+/*		
+##########################################################################
+##########################################################################
+	Retina media query.
+	Overrides styles for devices with a 
+	device-pixel-ratio of 2+, such as iPhone 4.
+######################################################################### 
+##########################################################################
+*/
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { 
+	
+
+}
+

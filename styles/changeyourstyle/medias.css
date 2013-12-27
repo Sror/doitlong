@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+/*************************** SLIDE SHOW AUTOMATIC ***************************/
+
+
+#slideshow {
+	width: 890px;          /*limite en largeur (1 élément du slideshow)*/
+	height: 595px;         /*limite en hauteur*/
+	margin:  20px auto;
+}
+#sContent {
+	width: 2690px;
+	
+	/*CSS3 webkit keyframes animation*/
+	-webkit-animation-name: AutoSlide;
+	-webkit-animation-duration: 15s;
+	-webkit-animation-iteration-count: infinite;
+	-webkit-animation-timing-function: ease-in-out;
+	
+	/*CSS3 moz keyframes animation*/
+	-moz-animation-name: AutoSlide;
+	-moz-animation-duration: 15s;
+	-moz-animation-iteration-count: infinite;
+	-moz-animation-timing-function: ease-in-out;
+	
+	/*CSS3 W3C keyframes animation*/
+	animation-name: AutoSlide;
+	animation-duration: 15s;
+	animation-iteration-count: infinite;
+	animation-timing-function: ease-in-out;
+}
+
+#slideshow-margin{
+margin-top:730px; 
+}
+
+
+/*************************** CARD FLIP ***************************/
+
+.card-flip {
+	cursor:pointer;
+	float:left;
+	width:252px;
+	height:252px;
+	float:left;
+	margin-top:10px;
+	-webkit-perspective: 1000 !important;
+	margin-bottom:20px;
+	margin-right:24px;
+	
+	}
+	
+	
+.back {
+	display:none;
+	}
+
+
+.flip-arrow {
+	
+	position:absolute;
+	margin-left:200px;
+	margin-top:-18px;
+	
+	}
+	
+.flip-arrow-back {
+	position:absolute;
+	margin-left:0px;
+	margin-top:-18px;
+	}
+	
+.flip-arrow img, .flip-arrow-back img {
+	width:49px;
+	height:48px;
+	
+	}
+	
+	
+.card-flip .front, .card-flip .back {
+	background-color:#f8f8f8;
+	padding:10px;
+	padding-left:0px;
+	padding-top:2px;
+	padding-right:16px;
+	width:236px;
+	height:240px;
+text-align:left;
+	}
+	
+.card-flip .back {
+	background-color:#efefef;
+	}
+	
+.card-flip-text {
+	margin-top:50px;
+	padding:20px;
+	
+	}
+/*************************** ***************************/

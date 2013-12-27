@@ -1,0 +1,314 @@
+
+<!DOCTYPE html>
+<html xmlns:csi="http://www.massimocorner.com/libraries/csi/" lang="fr">
+<head>
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- META INFORMATION -->
+
+<meta charset="utf-8">
+
+<!--Prevent pinch to zoom on iOS devices-->
+<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0; user-scalable=no;" />
+
+<!--Allow saving as a web app on the home screen on iOS Devices (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-capable" content="yes" />
+
+<!--If the page is saved as a web app, the statusbar will be black-translucent (doesn't apply in Baker)-->
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+<!--Prevent phone number detection on iOS devices-->
+<meta name="format-detection" content="telephone=no" />
+
+
+<!--Title. The content of the title is displayed on the loading screen on iOS devices-->
+<title>Do It Long ! Template HTML/CSS Long Journalism</title>
+
+<!-- /META INFORMATION -->
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- STYLESHEETS -->
+
+<!--Loading the main style sheet-->
+<link href="styles/styles.css" rel="stylesheet" type="text/css" />
+
+<!--Loading the dossier specific css-->
+<link href="styles/dossiers/01.css" rel="stylesheet" type="text/css" />
+
+
+<!--------------------------------------------------------------------------------------------------------------------------------->
+
+<!-- JAVASCRIPTS -->
+
+<script src="js/Hyphenator.js" type="text/javascript"></script>
+<script src="js/jquery-1.5.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="js/tmt_core.js"></script>
+<script type="text/javascript" src="js/tmt_net.js"></script>
+<script type="text/javascript" src="js/tmt_csi.js"></script>
+<script src="js/jquery.touchSwipe-1.2.1.js" type="text/javascript"></script>
+<!--Card Flip Effect-->
+<script type="text/javascript" src="js/jquery-css-transform.js"></script>
+<script type="text/javascript" src="js/rotate3Di.js"></script>
+<!--Audio Player-->
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+
+
+<!--Mandatory JavaScripts (Uncomment if not used to speed up performance)
+<script type="text/javascript" src="js/jquery.jplayer.min.js"></script>
+-->
+
+<!-- /JAVASCRIPTS -->
+
+</head>
+
+<body>
+
+<!--Enable text hyphenation with Hyphenator.js-->
+<div class="hyphenate">
+
+
+<!---------------------------- FIRST IMAGE AND MAIN TITLE  ---------------------------->
+<div class="dossier-start-bg">
+	<div id="main-title">
+	PUT IT YOUR TITLE
+	</div>
+</div>
+<!---------------------------- /FIRST IMAGE AND MAIN TITLE ---------------------------->
+
+
+
+
+<!---------------------------- SUBTITLE ---------------------------->
+<div class="content-element">
+	<div class="starting-headline">
+    <h1>PUT IT YOU SUBTITLE</h1>
+    </div>
+</div>
+<!---------------------------- /SUBTITLE ---------------------------->
+
+
+
+<div class="content-element">
+
+
+
+<!---------------------------- SIGNATURE ---------------------------->
+
+	<div class="small-column float-right">
+		<div class="signature">
+			<div class="category">
+			<p>REPORTER</p>
+				<div class="name">
+				<p>PUT IT THE REPORTER NAME</p>
+				</div>
+			<p>PHOTOGRAPH</p>
+				<div class="name">
+				<p>PUT IT THE PHOTOGRAPH NAME</p>
+				</div>
+			</div>
+		</div>
+	</div>
+<!---------------------------- /SIGNATURE ---------------------------->
+
+
+
+<!---------------------------- CHAPO ---------------------------->
+<div class="large-column float-left">
+	<div class="chapo">
+		<p>PUT IT YOUR INTRODUCTION TEXT (CHAPO)</p>
+	</div>
+</div>
+<!---------------------------- /CHAPO ---------------------------->
+
+
+
+<!---------------------------- ARTICLE BODY ---------------------------->
+ 
+<!--
+STRUCTURE
+
+<div class="full-column">
+<div class="large-column float-left">
+<div class="large-column float-right">
+<div class="small-column float-left">
+<div class="small-column float-right">
+<div class="medium-column float-left">
+<div class="medium-column float-right">
+<div class="media-left">
+<div class="media-right">
+
+
+ENTRIES
+
+<div class="main-title">
+<div class="starting-headline">
+<div class="chapo">
+<div class="signature">
+	with <div class="category"> and <div class="name">
+<div class="blockquote">
+<div class="entry text-secondary">
+<div class="entries-right text-secondary">
+<div class="caption text-secondary">
+<div class="text-secondary">
+
+
+COMPLICATED CODES 
+<div class="box">
+You should copy the code below.
+	<div class="small-column float-left">
+			<div class="logo">
+				<label for="an1"> #If you decide to use several box, each box must have its one an. First box an1, second box an2 etc.
+    			<img src="images/logo/location.png" width="50px" class="img-rounded" /> #Change the logo here.
+				</label>
+				<label for="an1">
+				</label>
+			</div>
+
+		<div class="full-column">
+		<input id="an1" type=checkbox>
+				<div style="display: none;">
+					<div class="box text-secondary">
+					<h2>PUT THE TITLE OF YOUR BOX</h2>
+					PUT HERE THE CONTENT OF YOUR BOX
+					</div>
+				</div>
+		</div>
+
+		<div class="small-column float-left">
+			<div class="legend">
+			</div>
+		</div>
+	</div>
+
+
+<div class="flip card">
+You should copy the code below.
+	<div class="card-flip">
+		<div class="front">
+        	<div class="flip-arrow">
+			<img src="images/flip-arrow.png" width="49" height="48" />
+			</div>
+           	<div class="card-flip-text">
+           	<p> Front. <br />
+           	Please click (tap) me.</p>
+            </div>
+        </div>
+        
+        <div class="back">
+        	<div class="flip-arrow-back">
+			<img src="images/flip-arrow-back.png" width="49" height="48" />
+			</div>
+            <div class="card-flip-text">
+            <p>Back. <br />
+            Great! Now click (tap) me again.</p>
+            </div>
+        </div>
+    </div> 
+		
+
+	<div class="card-flip">
+		<div class="front">
+        	<div class="flip-arrow">
+			<img src="images/flip-arrow.png" width="49" height="48" />
+			</div>
+           	<div class="card-flip-text">
+           	<p> Front. <br />
+           	Please click (tap) me.</p>
+            </div>
+        </div>
+        
+        <div class="back">
+        	<div class="flip-arrow-back">
+			<img src="images/flip-arrow-back.png" width="49" height="48" />
+			</div>
+            <div class="card-flip-text">
+            <p>Back. <br />
+            Great! Now click (tap) me again.</p>
+            </div>
+        </div>
+    </div>
+
+
+	<div class="card-flip">
+		<div class="front">
+        	<div class="flip-arrow">
+			<img src="images/flip-arrow.png" width="49" height="48" />
+			</div>
+           	<div class="card-flip-text">
+           	<p> Front. <br />
+           	Please click (tap) me.</p>
+            </div>
+        </div>
+        
+        <div class="back">
+        	<div class="flip-arrow-back">
+			<img src="images/flip-arrow-back.png" width="49" height="48" />
+			</div>
+            <div class="card-flip-text">
+            <p>Back. <br />
+            Great! Now click (tap) me again.</p>
+            </div>
+        </div>
+    </div>
+	<script type="text/javascript" src="js/card-flip.js"></script>
+
+<div class="slider">
+You should copy/paste the code below.
+	<div class="full-column">
+    	<input checked type=radio name=slider id="slide1" />
+    	<input type=radio name=slider id="slide2" />
+    	<input type=radio name=slider id="slide3" />
+
+    	<div id="slides">
+    		<div id="overflow">
+      			<div class="inner">
+					<article>
+            			<div class="info"><h3></h3></div>
+            			<img src="images/slideshow1.png"/>
+          			</article>
+          			<article>
+            			<div class="info"><h3></h3></div>
+            			<img src="images/slideshow2.png"/>
+          			</article>
+          			<article>
+            			<div class="info"><h3></h3></div>
+            			<img src="images/slideshow3.png"/>
+          			</article>
+          		</div>    
+      		</div>
+    	</div> 
+  
+  		 Controls and Active Slide Display
+  		<div id="controls">
+			<label for="slide1"></label>
+      		<label for="slide2"></label>
+      		<label for="slide3"></label>
+		</div> 
+   
+    	<div id="active">
+			<label for="slide1"></label>
+      		<label for="slide2"></label>
+      		<label for="slide3"></label>
+      	</div> 
+	</div>
+
+
+<div id="slideshow">
+You should copy/paste the code below.
+		<div id="slideshow">
+    		<ul id="sContent">
+      		<li><img src="images/slideshow1.png" alt="Image bleue" /></li>
+        	<li><img src="images/slideshow2.png" alt="Image verte" /></li>
+        	<li><img src="images/slideshow3.png" alt="Image brune" /></li>
+    		</ul>
+		<div id="slideshow-margin">
+		</div>
+
+-->
+
+</div>
+</body>
+</html>
